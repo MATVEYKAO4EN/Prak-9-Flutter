@@ -30,15 +30,6 @@ class DashboardScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               _buildStatCard(
-                'Всего категорий',
-                dashboardStore.totalCategories.toString(),
-                Colors.blue,
-                Icons.category,
-              ),
-              SizedBox(height: 16),
-              _buildStatCard(
-                'Всего продуктов',
-                dashboardStore.totalProducts.toString(),
                 Colors.green,
                 Icons.inventory,
               ),
